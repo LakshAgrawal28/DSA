@@ -167,7 +167,7 @@ int main() {
     h.Delete(0);
     cout << "Min value is " << h.getMin() << endl;
 
-    for(int i=0; i< 10; i++){
+    for(int i=0; i< 100; i++){
         cout << h.ExtractMin() << endl;
     }
     
